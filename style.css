@@ -1,0 +1,31 @@
+a{
+    color:#9b7d08;
+}
+
+#header_logo{
+    float:left;
+}
+
+a{
+    color:#9b7d08;
+}
+.fourth_section{
+    background-color: #4c4c4c;
+}
+
+#footer_logo{
+    float: right;
+}
+
+footer{
+    background-color: #4c4c4c;
+}
+
+@media screen and (min-width:610px){
+
+
+ .mobile-only{
+        display: none;
+    }
+    
+}
