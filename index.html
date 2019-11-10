@@ -6,31 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <figure class="col-lg-6 col-xs-3">
-            
-            <h1><img src="assets/images/logo.png" alt="logo" id="header_logo">THEYALLOW</h1>
-        </figure>
-        <nav class="col-lg-6 col-xs-9">
-            <a href="" class="col-xs-4"><img src="assets/images/icon_person.png">about us</a>
-            <a href="" class="col-xs-4"><img src="assets/images/icon_services.png">services</a>
-            <a href="" class="col-xs-4"><img src="assets/images/icon_contact.png">contact</a>
-        </nav>
-    </header>
+    
     <main>
-       
-
-            <div class="row">
+        <div class="row">
         <section id="first_section" class="col-lg-12">
+                <header class="col-xs-12 col-lg-12">
+                        <figure class="col-lg-6 col-xs-3">
+                            <h1><img src="assets/images/logo.png" alt="logo" id="header_logo">THEYALLOW</h1>
+                        </figure>
+                        <nav class="col-lg-6 col-xs-9">
+                            <a href="" class="col-xs-4"><img src="assets/images/icon_person.png">about us</a>
+                            <a href="" class="col-xs-4"><img src="assets/images/icon_services.png">services</a>
+                            <a href="" class="col-xs-4"><img src="assets/images/icon_contact.png">contact</a>
+                        </nav>
+                    </header>
             <div class="col-lg-6 col-xs-12">
-            <video controls poster="assets/images/video_placeholder_1.png"></video>
+                <video controls poster="assets/images/video_placeholder_1.png"></video>
              </div>
-            <div class="col-lg-6 col-xs-6 mobile-only">
-            <h2>the cool</h2>
-            <h2>the minimal</h2>
-        </div>
+            <div class="col-lg-6 col-xs-6 mobile-only center-text">
+                <h2>the cool</h2>
+                <h2>the minimal</h2>
+            </div>
         </section>
     </div>
 
@@ -52,7 +53,7 @@
         </section>
 
         <section id="third_section" class="col-lg-12">
-            
+
             <h2 clas="col-lg-12">lorem ipsum dolor sit amet</h2>
             <div class="third col-lg-4 col-xs-6">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
@@ -62,8 +63,9 @@
             </div>
 
             <div class="third col-lg-4 col-xs-12">
-                <img src="assets/images/icon_twitter.svg">
+                <div class="col-xs-6>"><img src="assets/images/icon_twitter.svg"></div>
                 <p>22</p>
+                <div class="desktop-hidden col-xs-6"><p>only for mobile</p></div>
             </div>
 
             <div class="col-lg-12 col-xs-12">
@@ -74,12 +76,13 @@
 
        
         <section id="fourth_section" class="col-lg-12 col-xs-12 fourth_section">
+            
             <h2 class="col-lg-12 col-xs-12">Lorem ipsum dolor sit amet</h2>
-            <div class="col-lg-6 col-xs-12">
-                <img src="assets/images/devices.png" alt="devices">
+            <div class="col-lg-6 col-xs-12 devices">
+                <img src="assets/images/devices.svg" alt="devices" id="devices" class="responsive">
             </div>
         
-            <div class="col-lg-6">
+            <div class="col-lg-6 mobile-only">
                 <ul>
                     <li>Sed ut perspiciatis unde omnis</li>
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
@@ -87,12 +90,14 @@
                     <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
                 </ul>
             </div>
+        
         </section>
     
     </main>
 
-    <footer>
-        
-        <p><img src="assets/images/logo.png" alt="logo" id="footer_logo">theyallow</p>
+    <footer class="col=lg-12 col-xs-12">
+        <div class="container">
+            <p><img src="assets/images/logo.png" alt="logo" id="footer_logo">theyallow</p>
+        </div>
     </footer>
 </body>
