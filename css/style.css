@@ -2,12 +2,16 @@ body{
     text-transform: uppercase;
 }
 
+header{
+    margin-bottom:20px;
+}
 #first_section{
-    background-image: url(background_first.png);
-    background-color:red;
+    background-image: url('assets/images/background_first.png');
+    background-size:cover;
+    background-color:black;
 }
 figure h1{
-    font-size: 40pt;
+    font-size: 3rem;
     color:white;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -15,12 +19,12 @@ figure h1{
 }
 
 #header_logo{
-    max-width:79px;
-    max-height:79px;
+    width:20%;
 }
 
 nav{
     margin-top:20px;
+    padding-right:10px;
     height:60px;
     padding:20px;
     background-color: #f5c506;
@@ -54,8 +58,36 @@ video{
     
 }
 
+/*Second section_______________________________*/
+.benefit img{
+    width:50%;
+}
 
+.benefit{
+    padding-top: 40px;
+    font-family: Segoe UI;
+    src: url('assets/fonts/segoe-wp-light.ttf');
+    text-align: center;
+    color:black;
+    font-size:2em;
+}
+/*Third section_______________________________*/
+#third_section{
+    background-color:#f5c506;
+    color:white;
+}
 
+#third_section h2{
+    font-family: 'Open Sans';
+}
+
+#third_section p{
+    text-transform: none;
+    font-family:'Open Sans';
+    font-size: 2em;
+}
+
+/*Fourth section_______________________________*/
 #fourth_section{
     background-color:#4c4c4c;
     font-family: 'PT Sans';
@@ -82,14 +114,11 @@ video{
     font-weight:bold;
 }
 
-.devices{
-    background-color: #4c4c4c;
-}
-
 #devices{
-    
     width:100%;
 }
+
+/*Footer_______________________________*/
 footer{
     color:white;
     font-size:2em;
@@ -105,10 +134,10 @@ footer{
     }
 }
 
-@media screen and (max-width:610px){
+@media screen and (max-width:640px){
 
     figure h1{
-        font-size:1em;
+        font-size: 16px;
         color:blue;
     }
     .mobile-only{
